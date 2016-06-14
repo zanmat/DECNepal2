@@ -67,9 +67,11 @@
           .cluster(true)
           // .marker(function (d, map){return d.Agency})
           .filterByArea(true)
-          .renderPopup(true)
+          .renderPopup(false)
           // .bindPopup('sup')
-          .popup()
+          .popup(function (d, marker) {
+            return d.Agency;
+          })
           .brushOn(true);
 
     dc.rowChart("#Sector .Sector", groupname)
