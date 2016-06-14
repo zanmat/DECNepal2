@@ -63,13 +63,13 @@
           .width(400)
           .height(390)
           .center([28,84])
-          .zoom(6)
+          .zoom(5)
           .cluster(true)
           // .marker(function (d, map){return d.Agency})
           .filterByArea(true)
           .renderPopup(true)
           // .bindPopup('sup')
-          .popup(function (feature){return d.Agency})
+          .popup()
           .brushOn(true);
 
     dc.rowChart("#Sector .Sector", groupname)
