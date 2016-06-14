@@ -1,13 +1,4 @@
-// var map = L.mapbox.map('map', ).setView([37.98, 23.839], 6);
-//
-// L.tileLayer('https://api.mapbox.com/styles/v1/kenzosuzuki/cip9oulrz0038dlnp1s462ttw/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2Vuem9zdXp1a2kiLCJhIjoiY2lwOWt3dGdlMDAyM25kbmxrd251Nzd1ZyJ9.OrDe4GKOUIn2s10-X4YxoA', {
-//     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-// }).addTo(map);
-//
-// L.marker([37.98, 23.839]).addTo(map)
-    // .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-    // .openPopup();
-    //
+
 
     d3.tsv("DECData.tsv", function(data) {
      // drawMarkerSelect(data);
