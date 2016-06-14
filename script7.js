@@ -72,7 +72,7 @@
           .width(400)
           .height(390)
           .center([28,84])
-          .zoom(5)
+          .zoom(6)
           .cluster(true)
           // .marker(function (d, map){return d.Agency})
           .filterByArea(true)
