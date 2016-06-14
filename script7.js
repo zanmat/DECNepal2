@@ -69,7 +69,7 @@
           .filterByArea(true)
           .renderPopup(true)
           // .bindPopup('sup')
-          .popup(function (d, map){return d.Agency})
+          .popup(function (feature){return d.Agency})
           .brushOn(true);
 
     dc.rowChart("#Sector .Sector", groupname)
