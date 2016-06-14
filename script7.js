@@ -71,7 +71,7 @@
           .group(activitiesGroup)
           .width(400)
           .height(390)
-          .center([39,27])
+          .center([28,84])
           .zoom(5)
           .cluster(true)
           // .marker(function (d, map){return d.Agency})
