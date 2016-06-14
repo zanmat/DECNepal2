@@ -43,9 +43,13 @@
       var all = tableData.groupAll();
       var dimension = tableData.dimension(function (d) {
         return d.Agency;
-      });
+        
+      }  );
+        
 
-
+		
+        
+        
       dataTable.width(960).height(5000)
       .dimension(dimension)
       .group(function(d) {return "Who What Where"})
@@ -69,7 +73,7 @@
           .filterByArea(true)
           .renderPopup(false)
           // .bindPopup('sup')
-          .popup(function (d, marker) {
+          .popup(function (d, map) {
             return d.Agency;
           })
           .brushOn(true);
