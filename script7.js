@@ -9,7 +9,7 @@
     // .openPopup();
     //
 
-    d3.tsv("ERR2Interim_13Jun_KM.tsv", function(data) {
+    d3.tsv("DECData.tsv", function(data) {
      // drawMarkerSelect(data);
       drawMarkerArea(data);
     });
@@ -28,7 +28,7 @@
             .group(all);
 
       var o = d3.scale.ordinal()
-            .domain("ActionAid", "CRS", "DRC", "IMC", "Internews", "NRC", "Oxfam", "Samaritan's Purse", "Translators Without Borders")
+            .domain("Oxfam", "Age International")
             // .range(colorbrewer.RdBu[9]);
 
       var byAgency = xf.dimension(function(d) { return d.Agency; });
