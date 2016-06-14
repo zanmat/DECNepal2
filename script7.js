@@ -67,7 +67,7 @@
           .cluster(true)
           // .marker(function (d, map){return d.Agency})
           .filterByArea(true)
-          .renderPopup(false)
+          .renderPopup(true)
           // .bindPopup('sup')
           .popup(function (d, marker) {
             return d.Agency;
